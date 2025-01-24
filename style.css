@@ -1404,6 +1404,7 @@ footer{
 
     .seven__blog__form__button{
         flex: 1 40px;
+        min-width: 236px;
     }
 
     .container__seven__blog{
@@ -1464,6 +1465,10 @@ footer{
     .button__none{
         width: 215px;
         height: 50px;
+    }
+
+        .container__seven{
+        padding: 0;
     }
 }
 

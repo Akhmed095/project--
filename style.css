@@ -856,7 +856,7 @@ select option{
 }
 
 .seven__blog__form__button{
-    width: 240px;
+/*     width: 240px; */
     height: 44px;
     border-radius: 4px;
     padding: 0;

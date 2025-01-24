@@ -1431,6 +1431,15 @@ footer{
     .email__tel{
         margin: 30px 0;
     }
+
+        .container__blog__thre__content__min__title{
+        font-size: 16px;
+    }
+    
+    .container__blog__thre__content__title{
+        font-size: 24px;
+        margin: 0 0 30px;
+    }
 }
 
 @media (max-width: 350px) {

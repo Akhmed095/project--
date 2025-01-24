@@ -987,6 +987,19 @@ footer{
     margin-left: 20px;
 }
 
+.New::after{
+    content: "new";
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--color-button);
+    background: var(--color-white);
+    text-decoration: underline var(--color-white);  
+}
 /* футер */
 @media (max-width: 1185px) {
     .blog__cartochca__img{

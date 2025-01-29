@@ -136,7 +136,7 @@ body{
 .info__title{
     font-family: "NEXT ART", sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: clamp(22px, 5vw, 60px);
     line-height: 150%;
     letter-spacing: 2px;
     color: var(--color-white);
@@ -265,7 +265,7 @@ select option{
 }
 
 .container__blog__content__min__title{
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
     font-weight: 400px;
     font-family:  var(--font-family);
     line-height: 20px;
@@ -274,7 +274,7 @@ select option{
 }
 
 .container__blog__content__title{
-    font-size: 32px;
+    font-size: clamp(24px, 5vw, 32px);
     font-weight: 800;
     font-family: var(--font-family);
     line-height: 120%;
@@ -292,7 +292,7 @@ select option{
 }
 /* Вторая секция */
 
-/* Третья секция */
+/* Третья секцич */
 .section__four{
     padding: 100px 0;
 }
@@ -316,7 +316,7 @@ select option{
 }
 
 .container__blog__thre__content__min__title{
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
     font-weight: 400px;
     font-family:  var(--font-family);
     line-height: 20px;
@@ -325,7 +325,7 @@ select option{
 }
 
 .container__blog__thre__content__title{
-    font-size: 32px;
+    font-size: clamp(24px, 5vw, 32px);
     font-weight: 800;
     font-family: var(--font-family);
     line-height: 120%;
@@ -404,7 +404,7 @@ select option{
     top: 5px;
     width: 50px;
     height: 50px;
-    background: url(./icon/Group\ 16.svg);
+    background: url(/icon/Group\ 16.svg);
 }
 
 .container__blog__thre__content__item__title__two::before{
@@ -414,7 +414,7 @@ select option{
     top: 5px;
     width: 50px;
     height: 50px;
-    background: url(./icon/Group\ 17.svg);
+    background: url(/icon/Group\ 17.svg);
 }
 
 .container__blog__thre__content__item__title__thre::before{
@@ -424,7 +424,7 @@ select option{
     top: 5px;
     width: 50px;
     height: 50px;
-    background: url(./icon/Group\ 18.svg);
+    background: url(/icon/Group\ 18.svg);
 }
 
 .container__blog__thre__media__img{
@@ -439,7 +439,7 @@ select option{
 }
 
 .conteiner__four__header__min__title{
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
     font-weight: 400px;
     font-family:  var(--font-family);
     line-height: 20px;
@@ -449,7 +449,7 @@ select option{
 }
 
 .conteiner__four__header__title{
-    font-size: 32px;
+    font-size: clamp(24px, 5vw, 32px);
     font-weight: 800;
     font-family: var(--font-family);
     line-height: 120%;
@@ -545,7 +545,7 @@ select option{
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #fdfdfd;
+    color: var(--color-white);
     background: rgba(255, 255, 255, .3);
 }
 
@@ -593,8 +593,7 @@ select option{
 }
 
 .container__five__header__mintitle{
-    font-size: 24px;
-    font-weight: 400px;
+    font-size: clamp(16px, 5vw, 24px);
     font-family:  var(--font-family);
     line-height: 20px;
     color: var(--color-yellow);
@@ -603,7 +602,7 @@ select option{
 }
 
 .container__five__header__title{
-    font-size: 32px;
+    font-size: clamp(24px, 5vw, 32px);
     font-weight: 800;
     font-family: var(--font-family);
     line-height: 120%;
@@ -738,7 +737,7 @@ select option{
 }
 
 .container__six__header__mintitle{
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
     font-weight: 400px;
     font-family:  var(--font-family);
     line-height: 20px;
@@ -748,7 +747,7 @@ select option{
 }
 
 .container__six__header__title{
-    font-size: 32px;
+    font-size: clamp(24px, 5vw, 32px);
     font-weight: 800;
     font-family: var(--font-family);
     line-height: 120%;
@@ -756,8 +755,6 @@ select option{
     margin: 0 0 40px;
     text-align: center;
 }
-
-
 
 .container__six__button{
     margin-top: 40px;
@@ -854,11 +851,6 @@ select option{
 
 }
 
-.seven__blog__form__button{
-    height: 44px;
-    border-radius: 4px;
-}
-
 .seven__blog__form__footer{
     font-size: 14px;
     font-weight: 600;
@@ -884,15 +876,12 @@ footer{
 }
 
 .footer__one__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;    
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
-}
-
-.footer__one__container{
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
 }
 
 .footer__one__container__item{
@@ -955,7 +944,7 @@ footer{
 }
 
 .footer__list{
-    list-style-image: url(./icon/Group.svg);
+    list-style-image: url(/icon/Group.svg);
 }
 
 .icon__list__item{
@@ -999,8 +988,10 @@ footer{
     background: var(--color-white);
     text-decoration: underline var(--color-white);  
 }
+
 /* футер */
 @media (max-width: 1185px) {
+
     .blog__cartochca__img{
         max-width: 310px;
         max-height: 400px;
@@ -1079,10 +1070,6 @@ footer{
 
     .info__form{
         flex-wrap: wrap;
-    }
-
-    .info__title {
-        font-size: 40px;
     }
 
     .container__blog{
@@ -1262,18 +1249,7 @@ footer{
 
 @media (max-width: 760px) {
     .info{
-        padding: 450px 0 50px;
-    }
-
-    .info__form{
-        display: none;
-    }
-
-    .info__button{
-        display: block;
-        background-color: var(--color-button);
-        color: var(--color-white);
-        margin-top: 20px;
+        padding: 300px 0 50px;
     }
 
     .container__five__blog{
@@ -1315,26 +1291,36 @@ footer{
 }
 }
 
-@media (max-width: 580px) {
-    .header__section {
-        max-height: 550px;
+@media (max-width: 655px) {
+    .info__form{
+        display: none;
     }
 
     .info{
-        padding: 200px 0 0px;
+        padding: 250px 0 50px;
     }
 
-    .info__title {
-        font-size: 28px;
+    .info__button{
+        display: block;
+        background-color: var(--color-button);
+        color: var(--color-white);
+        margin-top: 20px;
+    }
+
+    .header__section {
+        max-height: 550px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .info{
+        padding: 250px 0 0px;
     }
 
     .blog__media{
         display: flex;
         justify-content: center;
-    }
-
-    .container__blog__content__title{
-        font-size: 24px;
     }
 
     .blog__media__img__pocition{
@@ -1363,13 +1349,11 @@ footer{
 
     .conteiner__four__header__min__title{
         text-align: start;
-        font-size: 16px;
         padding-left: 5px;
     }
 
     .conteiner__four__header__title{
         text-align: start;
-        font-size: 24px;
         padding-left: 5px;
     }
 
@@ -1378,13 +1362,11 @@ footer{
     }
 
     .container__five__header__mintitle{
-        font-size: 16px;
         text-align: start;
         margin-left: 5px;
     }
 
     .container__five__header__title{
-        font-size: 24px;
         text-align: start;
         margin-left: 5px;
     }
@@ -1394,13 +1376,11 @@ footer{
     }
 
     .container__six__header__mintitle{
-        font-size: 16px;
         text-align: start;
         margin-left: 5px;
     }
     
     .container__six__header__title{
-        font-size: 24px;
         text-align: start;
         margin-left: 5px;
     }
@@ -1444,13 +1424,8 @@ footer{
     .email__tel{
         margin: 30px 0;
     }
-
-        .container__blog__thre__content__min__title{
-        font-size: 16px;
-    }
     
     .container__blog__thre__content__title{
-        font-size: 24px;
         margin: 0 0 30px;
     }
 }
@@ -1470,7 +1445,6 @@ footer{
     }
 
     .info__title{
-        font-size: 22px;
         margin-top: 20px;
     }
 
@@ -1479,9 +1453,7 @@ footer{
         height: 50px;
     }
 
-        .container__seven{
+    .container__seven{
         padding: 0;
     }
 }
-
-

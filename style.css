@@ -1314,7 +1314,7 @@ footer{
 @media (max-width: 580px) {
 
     .info{
-        padding: 250px 0 0px;
+        padding: 250px 0 20px;
     }
 
     .blog__media{
@@ -1440,7 +1440,7 @@ footer{
     }
 
     .info{
-        padding: 200px 0 0px;
+        padding: 200px 0 20px;
     }
 
     .info__title{

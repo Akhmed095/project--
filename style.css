@@ -1072,6 +1072,10 @@ footer{
         display: none;
     }
 
+    .menu__link:hover{
+    text-decoration: underline;
+    }
+
     .info__form{
         flex-wrap: wrap;
     }

@@ -1064,7 +1064,12 @@ footer{
 
     .menu ul{
         flex-direction: column;
-        roW-gap: 30px;
+        row-gap: 40px;
+        list-style-image: url(./icon/Group.svg);
+    }
+
+    .menu__item__none{
+        display: none;
     }
 
     .info__form{

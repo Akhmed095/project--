@@ -943,7 +943,7 @@ footer{
 }
 
 .footer__list{
-    list-style-image: url(/icon/Group.svg);
+    list-style-image: url(./icon/Group.svg);
 }
 
 .icon__list__item{

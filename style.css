@@ -197,6 +197,7 @@ select option{
     font-size: 16px;
     font-weight: 700;
     background-color:  var(--color-white);
+    color: var(--color-text);
     border-radius: 5px;
     border: none;
     transition: all .3s;
